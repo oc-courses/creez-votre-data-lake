@@ -1,0 +1,12 @@
+{
+    "namespace": "openclassrooms.openstreetmap",
+    "type": "record",
+    "name": "Node",
+    "fields": [
+        {"name": "id", "type": "long"},
+        {"name": "longitude", "type": "float"},
+        {"name": "latitude", "type": "float"},
+        {"name": "username", "type": "string"},
+        {"name": "tags", "type": {"type": "map", "values": "string"}, "default": {}}
+    ]
+}
